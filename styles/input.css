@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  * {
+    color-scheme: dark;
+  }
+
+  .border-x {
+    border-left-width: 1px;
+    border-right-width: 1px;
+  }
+
+  .border-x-white {
+    --tw-border-opacity: 1;
+    border-left-color: rgb(255 255 255 / var(--tw-border-opacity));
+    border-right-color: rgb(255 255 255 / var(--tw-border-opacity));
+  }
+
+  .bg-\[\#202327\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(32 35 39 / var(--tw-bg-opacity));
+  }
+
+  .w-\[60\%\] {
+    width: 60%;
+  }
+
+  .w-\[41px\] {
+    width: 41px;
+  }
+
+  .w-\[411px\] {
+    width: 411px;
+  }
+
+  .border-x-\[\#2f3336\] {
+    --tw-border-opacity: 1;
+    border-left-color: rgb(47 51 54 / var(--tw-border-opacity));
+    border-right-color: rgb(47 51 54 / var(--tw-border-opacity));
+  }
+
+  .w-\[42\%\] {
+    width: 42%;
+  }
+
+  .hover\:bg-\[\#202327\]:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(32 35 39 / var(--tw-bg-opacity));
+  }
+
+  .w-\[58px\] {
+    width: 58px;
+  }
+
+  .border-b-\[\#2f3336\] {
+    --tw-border-opacity: 1;
+    border-bottom-color: rgb(47 51 54 / var(--tw-border-opacity));
+  }
+
+  .border-\[\#2f3336\] {
+    --tw-border-opacity: 1;
+    border-color: rgb(47 51 54 / var(--tw-border-opacity));
+  }
+
+  .placeholder\:text-xl::placeholder {
+    font-size: 1.25rem
+      /* 20px */
+    ;
+    line-height: 1.75rem
+      /* 28px */
+    ;
+  }
+
+  .placeholder\:text-gray-500::placeholder {
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity));
+  }
+
+  .h-\[1px\] {
+    height: 1px;
+  }
+
+  .bg-\[\#2f3336\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(47 51 54 / var(--tw-bg-opacity));
+  }
+
+  .text-\[\#1d9bf0\] {
+    --tw-text-opacity: 1;
+    color: rgb(29 155 240 / var(--tw-text-opacity));
+  }
+
+  .hover\:bg-gray-950:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(3 7 18 / var(--tw-bg-opacity));
+  }
+
+  .border-gray-400 {
+    --tw-border-opacity: 1;
+    border-color: rgb(156 163 175 / var(--tw-border-opacity));
+  }
+
+  .hover\:bg-\[\#0a171f\]:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(10 23 31 / var(--tw-bg-opacity));
+  }
+
+  .hover\:bg-\[\#1d9bf033\]:hover {
+    background-color: #1d9bf033;
+  }
+
+  .hover\:bg-\[\#00ba7c33\]:hover {
+    background-color: #00ba7c33;
+  }
+
+  .hover\:bg-\[\#f9188033\]:hover {
+    background-color: #f9188033;
+  }
+
+  .w-\[70\%\] {
+    width: 70%;
+}
+
+@media (min-width: 1280px) {
+  .xl\:w-\[42\%\] {
+      width: 42%;
+  }
+}
+}

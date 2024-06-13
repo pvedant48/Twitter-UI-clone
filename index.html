@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home / X</title>
+        <link rel="stylesheet" href="./styles/output.css">
+        <link rel="shortcut icon" href="//abs.twimg.com/favicons/twitter.3.ico">
+</head>
+
+<body class=" bg-black text-white">
+        <div class="flex container justify-center mx-auto">
+                <div class="left xl:w-[42%] m-2">
+                        <div class="sidebar flex flex-col">
+                                <div
+                                        class="logo mt-2 w-[41px] border-0 rounded-full hover:bg-gray-800 p-2 cursor-pointer">
+                                        <img style="filter: invert(1);" width="28" src="./images/svgs/logo.svg"
+                                                alt="logo">
+                                </div>
+                                <ul class="flex flex-col justify-center">
+                                        <li
+                                                class="flex items-center w-fit gap-4 border-0 rounded-full hover:bg-gray-800 p-3 cursor-pointer text-xl">
+                                                <img style="filter: invert(1);" width="25" src="./images/svgs/home.svg"
+                                                        alt=""><span class="hidden xl:block">Home</span>
+                                        </li>
+                                        <li
+                                                class="flex items-center w-fit gap-4 border-0 rounded-full hover:bg-gray-800 p-3 cursor-pointer text-xl">
+                                                <img style="filter: invert(1);" width="25"
+                                                        src="./images/svgs/search.svg" alt=""><span class="hidden xl:block">Explore</span>
+                                        </li>
+                                        <li
+                                                class="flex items-center w-fit gap-4 border-0 rounded-full hover:bg-gray-800 p-3 cursor-pointer text-xl">
+                                                <img style="filter: invert(1);" width="25" src="./images/svgs/noti.svg"
+                                                        alt=""><span class="hidden xl:block">Notifications</span>
+                                        </li>
+                                        <li
+                                                class="flex items-center w-fit gap-4 border-0 rounded-full hover:bg-gray-800 p-3 cursor-pointer text-xl">
+                                                <img style="filter: invert(1);" width="25" src="./images/svgs/msgs.svg"
+                                                        alt=""><span class="hidden xl:block">Messages</span>
+                                        </li>
+                                        <li
+                                                class="flex items-center w-fit gap-4 border-0 rounded-full hover:bg-gray-800 p-3 cursor-pointer text-xl">
+                                                <img style="filter: invert(1);" width="25" src="./images/svgs/grok.svg"
+                                                        alt=""><span class="hidden xl:block">Grok</span>
+                                        </li>
+                                        <!-- <li
+                                                class="flex items-center w-fit gap-4 border-0 rounded-full hover:bg-gray-800 p-3 cursor-pointer text-xl">
+                                                <img style="filter: invert(1);" width="25" src="./images/svgs/lists.svg"
+                                                        alt=""><span class="hidden xl:block">Lists</span>
+                                        </li>
+                                        <li
+                                                class="flex items-center w-fit gap-4 border-0 rounded-full hover:bg-gray-800 p-3 cursor-pointer text-xl">
+                                                <img style="filter: invert(1);" width="25" src="./images/svgs/bookmarks.svg"
+                                                        alt=""><span class="hidden xl:block">Bookmarks</span>
+                                        </li> -->
+                                        <li
+                                                class="flex items-center w-fit gap-4 border-0 rounded-full hover:bg-gray-800 p-3 cursor-pointer text-xl">
+                                                <img style="filter: invert(1);" width="25"
+                                                        src="./images/svgs/communities.svg" alt=""><span class="hidden xl:block">Communities</span>
+                                        </li>
+                                        <li
+                                                class="flex items-center w-fit gap-4 border-0 rounded-full hover:bg-gray-800 p-3 cursor-pointer text-xl">
+                                                <img style="filter: invert(1);" width="25" src="./images/svgs/logo.svg"
+                                                        alt=""><span class="hidden xl:block">Premium</span>
+                                        </li>
+                                        <li
+                                                class="flex items-center w-fit gap-4 border-0 rounded-full hover:bg-gray-800 p-3 cursor-pointer text-xl">
+                                                <img style="filter: invert(1);" width="25"
+                                                        src="./images/svgs/profile.svg" alt=""><span class="hidden xl:block">Profile</span>
+                                        </li>
+                                        <li
+                                                class="flex items-center w-fit gap-4 border-0 rounded-full hover:bg-gray-800 p-3 cursor-pointer text-xl">
+                                                <img style="filter: invert(1);" width="25" src="./images/svgs/more.svg"
+                                                        alt=""><span class="hidden xl:block">More</span>
+                                        </li>
+                                </ul>
+                                <button
+                                        class="text-white bg-blue-500 w-11/12 p-3 font-bold border border-transparent rounded-full hover:bg-blue-600 cursor-pointer">Post</button>
+                                <div
+                                        class="profile w-1/6 flex items-center hover:bg-gray-900 rounded-full p-3 gap-x-2 cursor-pointer bottom-3 absolute">
+                                        <div class="pp">
+                                                <img class="border-transparent rounded-full" width="45"
+                                                        src="./images/imgs/profile.png" alt="" srcset="">
+                                        </div>
+                                        <div class="tag xl:flex hidden flex-col w-10/12">
+                                                <span class="name font-bold">VedantPatel08</span>
+                                                <span class="at text-gray-500">@Patel08Vedant</span>
+                                        </div>
+                                        <img class="xl:block hidden" style="filter: invert(1);" width="18" src="./images/svgs/dots.svg" alt=""
+                                                srcset="">
+                                </div>
+                        </div>
+                </div>
+                <div class="middle xl:w-full w-[70%] border-x border-x-[#2f3336]">
+                        <div class="top flex items-center justify-center border-b border-b-[#2f3336] relative">
+                                <div
+                                        class="flex flex-col items-center justify-center w-1/2 p-3 cursor-pointer hover:bg-[#202327]">
+                                        <span class="font-bold flex item">For you</span>
+                                        <div
+                                                class="select w-[58px] h-1 bg-blue-500 border-transparent rounded-full absolute bottom-0">
+                                        </div>
+                                </div>
+                                <div
+                                        class="flex items-center justify-center w-1/2 p-3 cursor-pointer hover:bg-[#202327]">
+
+                                        <span class="text-gray-500">Following</span>
+                                </div>
+                        </div>
+                        <div class="tweet">
+                                <div class="flex items-center p-3 gap-3">
+
+                                        <div class="profile"><img class="border-transparent rounded-full" width="42"
+                                                        src="./images/imgs/profile.png" alt="" srcset=""></div>
+                                        <textarea
+                                                class="bg-black text-white outline-none w-11/12 h-14 resize-none placeholder:text-gray-500 text-xl place-content-center"
+                                                name="" placeholder="What is happening?!" id=""></textarea>
+                                </div>
+                                <button
+                                        class="flex text-[#1d9bf0] font-bold rounded-full hover:bg-gray-900 px-2 text-sm items-center mx-16 mb-3 gap-1"><img
+                                                width="16"
+                                                style="filter: invert(44%) sepia(73%) saturate(1231%) hue-rotate(179deg) brightness(98%) contrast(92%);"
+                                                src="./images/svgs/world.svg" alt="" srcset="">Everyone can
+                                        reply</button>
+                                <div class="separate h-[1px] w-10/12 mx-auto bg-[#2f3336]"></div>
+                                <div class="posttweet flex justify-between py-2 px-5">
+                                        <div class="svgs flex justify-between w-1/3 mx-9">
+                                                <div
+                                                        class="w-9 rounded-full hover:bg-gray-900 flex justify-center items-center">
+                                                        <img style="filter: invert(44%) sepia(73%) saturate(1231%) hue-rotate(179deg) brightness(98%) contrast(92%);"
+                                                                width="20" src="./images/svgs/imageattach.svg" alt=""
+                                                                srcset="">
+                                                </div>
+                                                <div
+                                                        class="w-9 rounded-full hover:bg-gray-900 flex justify-center items-center">
+                                                        <img style="filter: invert(44%) sepia(73%) saturate(1231%) hue-rotate(179deg) brightness(98%) contrast(92%);"
+                                                                width="20" src="./images/svgs/gif.svg" alt="" srcset="">
+                                                </div>
+                                                <div
+                                                        class="w-9 rounded-full hover:bg-gray-900 flex justify-center items-center">
+                                                        <img style="filter: invert(44%) sepia(73%) saturate(1231%) hue-rotate(179deg) brightness(98%) contrast(92%);"
+                                                                width="20" src="./images/svgs/checklist.svg" alt=""
+                                                                srcset="">
+                                                </div>
+                                                <div
+                                                        class="w-9 rounded-full hover:bg-gray-900 flex justify-center items-center">
+                                                        <img style="filter: invert(44%) sepia(73%) saturate(1231%) hue-rotate(179deg) brightness(98%) contrast(92%);"
+                                                                width="20" src="./images/svgs/emoji.svg" alt=""
+                                                                srcset="">
+                                                </div>
+                                                <div
+                                                        class="w-9 rounded-full hover:bg-gray-900 flex justify-center items-center">
+                                                        <img style="filter: invert(44%) sepia(73%) saturate(1231%) hue-rotate(179deg) brightness(98%) contrast(92%);"
+                                                                width="20" src="./images/svgs/date.svg" alt=""
+                                                                srcset="">
+                                                </div>
+                                                <div
+                                                        class="w-9 rounded-full hover:bg-gray-900 flex justify-center items-center">
+                                                        <img style="filter: invert(44%) sepia(73%) saturate(1231%) hue-rotate(179deg) brightness(98%) contrast(92%);"
+                                                                width="20" src="./images/svgs/location.svg" alt=""
+                                                                srcset="">
+                                                </div>
+                                        </div>
+                                        <div><button
+                                                        class="text-white bg-blue-500 px-4 py-1 font-bold border border-transparent rounded-full hover:bg-blue-600 cursor-pointer">Post</button>
+                                        </div>
+                                </div>
+                                <div
+                                        class="more hover:bg-gray-950 cursor-pointer text-[#1d9bf0] flex justify-center py-3 border-t-2 border-b border-[#2f3336]">
+                                        Show 169 posts</div>
+                        </div>
+                        <div class="posts border-b border-[#2f3336] cursor-pointer">
+                                <div class="caption flex px-3 py-4">
+                                        <div class="pp"><img class="rounded-full" width="44"
+                                                        src="./images/imgs/elonprofilephoto.jpg" alt="" srcset="">
+                                        </div>
+                                        <div class="text w-full px-2">
+                                                <div class="username flex items-center justify-between">
+                                                        <div>
+                                                                <div class="names flex font-bold gap-1"><span
+                                                                                class="hover:underline">Elon
+                                                                                Musk</span><img
+                                                                                style="filter: invert(44%) sepia(75%) saturate(1022%) hue-rotate(175deg) brightness(99%) contrast(91%);"
+                                                                                width="18"
+                                                                                src="./images/svgs/verified.svg" alt=""
+                                                                                srcset=""><img
+                                                                                style="object-fit: contain;" width="16"
+                                                                                src="./images/imgs/x.jpg" alt=""
+                                                                                srcset=""><span
+                                                                                class="font-normal text-gray-500">@elonmusk</span>
+                                                                        <div
+                                                                                class="flex justify-center items-center h-4">
+                                                                                <span
+                                                                                        class="font-normal text-gray-500">.</span>
+                                                                        </div>
+                                                                        <span
+                                                                                class="font-normal text-gray-500 hover:underline">7h</span>
+                                                                </div>
+                                                        </div>
+                                                        <div class="hover:bg-[#0a171f] rounded-full p-2"><img
+                                                                        style="filter: invert(0.5);" width="18"
+                                                                        src="./images/svgs/dots.svg" alt="" srcset="">
+                                                        </div>
+                                                </div>
+                                                <div class="content">Massive increase in likes after they were made
+                                                        private!</div>
+                                        </div>
+                                </div>
+                                <div class="photo pr-4 pl-16"><img class="rounded-2xl" src="./images/imgs/tweet.jpeg"
+                                                alt="" srcset=""></div>
+                                <div class="interacts flex justify-between pr-4 pl-16 py-3">
+                                        <span
+                                                class="flex text-gray-500 text-xs items-end gap-1 hover:bg-[#1d9bf033] rounded-full p-2"><img
+                                                        style="filter: invert(0.5);" width="18"
+                                                        src="./images/svgs/comment.svg" alt="" srcset="">17k</span>
+                                        <span
+                                                class="flex text-gray-500 text-xs items-end gap-1 hover:bg-[#00ba7c33] rounded-full p-2"><img
+                                                        style="filter: invert(0.5);" width="18"
+                                                        src="./images/svgs/retweet.svg" alt="" srcset="">25k</span>
+                                        <span
+                                                class="flex text-gray-500 text-xs items-end gap-1 hover:bg-[#f9188033] rounded-full p-2"><img
+                                                        style="filter: invert(0.5);" width="18"
+                                                        src="./images/svgs/like.svg" alt="" srcset="">293k</span>
+                                        <span
+                                                class="flex text-gray-500 text-xs items-end gap-1 hover:bg-[#1d9bf033] rounded-full p-2"><img
+                                                        style="filter: invert(0.5);" width="18"
+                                                        src="./images/svgs/views.svg" alt="" srcset="">33M</span>
+                                        <div class="flex gap-2">
+                                                <span class="flex hover:bg-[#0a171f] rounded-full p-2"><img
+                                                                style="filter: invert(0.5);" width="18"
+                                                                src="./images/svgs/bookmarks.svg" alt=""
+                                                                srcset=""></span>
+                                                <span class="flex hover:bg-[#0a171f] rounded-full p-2"><img
+                                                                style="filter: invert(0.5);" width="18"
+                                                                src="./images/svgs/share.svg" alt="" srcset=""></span>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="posts border-b border-[#2f3336] cursor-pointer">
+                                <div class="caption flex px-3 py-4">
+                                        <div class="pp"><img class="rounded-full" width="44"
+                                                        src="./images/imgs/elonprofilephoto.jpg" alt="" srcset="">
+                                        </div>
+                                        <div class="text w-full px-2">
+                                                <div class="username flex items-center justify-between">
+                                                        <div>
+                                                                <div class="names flex font-bold gap-1"><span
+                                                                                class="hover:underline">Elon
+                                                                                Musk</span><img
+                                                                                style="filter: invert(44%) sepia(75%) saturate(1022%) hue-rotate(175deg) brightness(99%) contrast(91%);"
+                                                                                width="18"
+                                                                                src="./images/svgs/verified.svg" alt=""
+                                                                                srcset=""><img
+                                                                                style="object-fit: contain;" width="16"
+                                                                                src="./images/imgs/x.jpg" alt=""
+                                                                                srcset=""><span
+                                                                                class="font-normal text-gray-500">@elonmusk</span>
+                                                                        <div
+                                                                                class="flex justify-center items-center h-4">
+                                                                                <span
+                                                                                        class="font-normal text-gray-500">.</span>
+                                                                        </div>
+                                                                        <span
+                                                                                class="font-normal text-gray-500 hover:underline">7h</span>
+                                                                </div>
+                                                        </div>
+                                                        <div class="hover:bg-[#0a171f] rounded-full p-2"><img
+                                                                        style="filter: invert(0.5);" width="18"
+                                                                        src="./images/svgs/dots.svg" alt="" srcset="">
+                                                        </div>
+                                                </div>
+                                                <div class="content">Massive increase in likes after they were made
+                                                        private!</div>
+                                        </div>
+                                </div>
+                                <div class="photo pr-4 pl-16"><img class="rounded-2xl" src="./images/imgs/tweet.jpeg"
+                                                alt="" srcset=""></div>
+                                <div class="interacts flex justify-between pr-4 pl-16 py-3">
+                                        <span
+                                                class="flex text-gray-500 text-xs items-end gap-1 hover:bg-[#1d9bf033] rounded-full p-2"><img
+                                                        style="filter: invert(0.5);" width="18"
+                                                        src="./images/svgs/comment.svg" alt="" srcset="">17k</span>
+                                        <span
+                                                class="flex text-gray-500 text-xs items-end gap-1 hover:bg-[#00ba7c33] rounded-full p-2"><img
+                                                        style="filter: invert(0.5);" width="18"
+                                                        src="./images/svgs/retweet.svg" alt="" srcset="">25k</span>
+                                        <span
+                                                class="flex text-gray-500 text-xs items-end gap-1 hover:bg-[#f9188033] rounded-full p-2"><img
+                                                        style="filter: invert(0.5);" width="18"
+                                                        src="./images/svgs/like.svg" alt="" srcset="">293k</span>
+                                        <span
+                                                class="flex text-gray-500 text-xs items-end gap-1 hover:bg-[#1d9bf033] rounded-full p-2"><img
+                                                        style="filter: invert(0.5);" width="18"
+                                                        src="./images/svgs/views.svg" alt="" srcset="">33M</span>
+                                        <div class="flex gap-2">
+                                                <span class="flex hover:bg-[#0a171f] rounded-full p-2"><img
+                                                                style="filter: invert(0.5);" width="18"
+                                                                src="./images/svgs/bookmarks.svg" alt=""
+                                                                srcset=""></span>
+                                                <span class="flex hover:bg-[#0a171f] rounded-full p-2"><img
+                                                                style="filter: invert(0.5);" width="18"
+                                                                src="./images/svgs/share.svg" alt="" srcset=""></span>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="posts border-b border-[#2f3336] cursor-pointer">
+                                <div class="caption flex px-3 py-4">
+                                        <div class="pp"><img class="rounded-full" width="44"
+                                                        src="./images/imgs/elonprofilephoto.jpg" alt="" srcset="">
+                                        </div>
+                                        <div class="text w-full px-2">
+                                                <div class="username flex items-center justify-between">
+                                                        <div>
+                                                                <div class="names flex font-bold gap-1"><span
+                                                                                class="hover:underline">Elon
+                                                                                Musk</span><img
+                                                                                style="filter: invert(44%) sepia(75%) saturate(1022%) hue-rotate(175deg) brightness(99%) contrast(91%);"
+                                                                                width="18"
+                                                                                src="./images/svgs/verified.svg" alt=""
+                                                                                srcset=""><img
+                                                                                style="object-fit: contain;" width="16"
+                                                                                src="./images/imgs/x.jpg" alt=""
+                                                                                srcset=""><span
+                                                                                class="font-normal text-gray-500">@elonmusk</span>
+                                                                        <div
+                                                                                class="flex justify-center items-center h-4">
+                                                                                <span
+                                                                                        class="font-normal text-gray-500">.</span>
+                                                                        </div>
+                                                                        <span
+                                                                                class="font-normal text-gray-500 hover:underline">7h</span>
+                                                                </div>
+                                                        </div>
+                                                        <div class="hover:bg-[#0a171f] rounded-full p-2"><img
+                                                                        style="filter: invert(0.5);" width="18"
+                                                                        src="./images/svgs/dots.svg" alt="" srcset="">
+                                                        </div>
+                                                </div>
+                                                <div class="content">Massive increase in likes after they were made
+                                                        private!</div>
+                                        </div>
+                                </div>
+                                <div class="photo pr-4 pl-16"><img class="rounded-2xl" src="./images/imgs/tweet.jpeg"
+                                                alt="" srcset=""></div>
+                                <div class="interacts flex justify-between pr-4 pl-16 py-3">
+                                        <span
+                                                class="flex text-gray-500 text-xs items-end gap-1 hover:bg-[#1d9bf033] rounded-full p-2"><img
+                                                        style="filter: invert(0.5);" width="18"
+                                                        src="./images/svgs/comment.svg" alt="" srcset="">17k</span>
+                                        <span
+                                                class="flex text-gray-500 text-xs items-end gap-1 hover:bg-[#00ba7c33] rounded-full p-2"><img
+                                                        style="filter: invert(0.5);" width="18"
+                                                        src="./images/svgs/retweet.svg" alt="" srcset="">25k</span>
+                                        <span
+                                                class="flex text-gray-500 text-xs items-end gap-1 hover:bg-[#f9188033] rounded-full p-2"><img
+                                                        style="filter: invert(0.5);" width="18"
+                                                        src="./images/svgs/like.svg" alt="" srcset="">293k</span>
+                                        <span
+                                                class="flex text-gray-500 text-xs items-end gap-1 hover:bg-[#1d9bf033] rounded-full p-2"><img
+                                                        style="filter: invert(0.5);" width="18"
+                                                        src="./images/svgs/views.svg" alt="" srcset="">33M</span>
+                                        <div class="flex gap-2">
+                                                <span class="flex hover:bg-[#0a171f] rounded-full p-2"><img
+                                                                style="filter: invert(0.5);" width="18"
+                                                                src="./images/svgs/bookmarks.svg" alt=""
+                                                                srcset=""></span>
+                                                <span class="flex hover:bg-[#0a171f] rounded-full p-2"><img
+                                                                style="filter: invert(0.5);" width="18"
+                                                                src="./images/svgs/share.svg" alt="" srcset=""></span>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="posts border-b border-[#2f3336] cursor-pointer">
+                                <div class="caption flex px-3 py-4">
+                                        <div class="pp"><img class="rounded-full" width="44"
+                                                        src="./images/imgs/elonprofilephoto.jpg" alt="" srcset="">
+                                        </div>
+                                        <div class="text w-full px-2">
+                                                <div class="username flex items-center justify-between">
+                                                        <div>
+                                                                <div class="names flex font-bold gap-1"><span
+                                                                                class="hover:underline">Elon
+                                                                                Musk</span><img
+                                                                                style="filter: invert(44%) sepia(75%) saturate(1022%) hue-rotate(175deg) brightness(99%) contrast(91%);"
+                                                                                width="18"
+                                                                                src="./images/svgs/verified.svg" alt=""
+                                                                                srcset=""><img
+                                                                                style="object-fit: contain;" width="16"
+                                                                                src="./images/imgs/x.jpg" alt=""
+                                                                                srcset=""><span
+                                                                                class="font-normal text-gray-500">@elonmusk</span>
+                                                                        <div
+                                                                                class="flex justify-center items-center h-4">
+                                                                                <span
+                                                                                        class="font-normal text-gray-500">.</span>
+                                                                        </div>
+                                                                        <span
+                                                                                class="font-normal text-gray-500 hover:underline">7h</span>
+                                                                </div>
+                                                        </div>
+                                                        <div class="hover:bg-[#0a171f] rounded-full p-2"><img
+                                                                        style="filter: invert(0.5);" width="18"
+                                                                        src="./images/svgs/dots.svg" alt="" srcset="">
+                                                        </div>
+                                                </div>
+                                                <div class="content">Massive increase in likes after they were made
+                                                        private!</div>
+                                        </div>
+                                </div>
+                                <div class="photo pr-4 pl-16"><img class="rounded-2xl" src="./images/imgs/tweet.jpeg"
+                                                alt="" srcset=""></div>
+                                <div class="interacts flex justify-between pr-4 pl-16 py-3">
+                                        <span
+                                                class="flex text-gray-500 text-xs items-end gap-1 hover:bg-[#1d9bf033] rounded-full p-2"><img
+                                                        style="filter: invert(0.5);" width="18"
+                                                        src="./images/svgs/comment.svg" alt="" srcset="">17k</span>
+                                        <span
+                                                class="flex text-gray-500 text-xs items-end gap-1 hover:bg-[#00ba7c33] rounded-full p-2"><img
+                                                        style="filter: invert(0.5);" width="18"
+                                                        src="./images/svgs/retweet.svg" alt="" srcset="">25k</span>
+                                        <span
+                                                class="flex text-gray-500 text-xs items-end gap-1 hover:bg-[#f9188033] rounded-full p-2"><img
+                                                        style="filter: invert(0.5);" width="18"
+                                                        src="./images/svgs/like.svg" alt="" srcset="">293k</span>
+                                        <span
+                                                class="flex text-gray-500 text-xs items-end gap-1 hover:bg-[#1d9bf033] rounded-full p-2"><img
+                                                        style="filter: invert(0.5);" width="18"
+                                                        src="./images/svgs/views.svg" alt="" srcset="">33M</span>
+                                        <div class="flex gap-2">
+                                                <span class="flex hover:bg-[#0a171f] rounded-full p-2"><img
+                                                                style="filter: invert(0.5);" width="18"
+                                                                src="./images/svgs/bookmarks.svg" alt=""
+                                                                srcset=""></span>
+                                                <span class="flex hover:bg-[#0a171f] rounded-full p-2"><img
+                                                                style="filter: invert(0.5);" width="18"
+                                                                src="./images/svgs/share.svg" alt="" srcset=""></span>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="posts border-b border-[#2f3336] cursor-pointer">
+                                <div class="caption flex px-3 py-4">
+                                        <div class="pp"><img class="rounded-full" width="44"
+                                                        src="./images/imgs/elonprofilephoto.jpg" alt="" srcset="">
+                                        </div>
+                                        <div class="text w-full px-2">
+                                                <div class="username flex items-center justify-between">
+                                                        <div>
+                                                                <div class="names flex font-bold gap-1"><span
+                                                                                class="hover:underline">Elon
+                                                                                Musk</span><img
+                                                                                style="filter: invert(44%) sepia(75%) saturate(1022%) hue-rotate(175deg) brightness(99%) contrast(91%);"
+                                                                                width="18"
+                                                                                src="./images/svgs/verified.svg" alt=""
+                                                                                srcset=""><img
+                                                                                style="object-fit: contain;" width="16"
+                                                                                src="./images/imgs/x.jpg" alt=""
+                                                                                srcset=""><span
+                                                                                class="font-normal text-gray-500">@elonmusk</span>
+                                                                        <div
+                                                                                class="flex justify-center items-center h-4">
+                                                                                <span
+                                                                                        class="font-normal text-gray-500">.</span>
+                                                                        </div>
+                                                                        <span
+                                                                                class="font-normal text-gray-500 hover:underline">7h</span>
+                                                                </div>
+                                                        </div>
+                                                        <div class="hover:bg-[#0a171f] rounded-full p-2"><img
+                                                                        style="filter: invert(0.5);" width="18"
+                                                                        src="./images/svgs/dots.svg" alt="" srcset="">
+                                                        </div>
+                                                </div>
+                                                <div class="content">Massive increase in likes after they were made
+                                                        private!</div>
+                                        </div>
+                                </div>
+                                <div class="photo pr-4 pl-16"><img class="rounded-2xl" src="./images/imgs/tweet.jpeg"
+                                                alt="" srcset=""></div>
+                                <div class="interacts flex justify-between pr-4 pl-16 py-3">
+                                        <span
+                                                class="flex text-gray-500 text-xs items-end gap-1 hover:bg-[#1d9bf033] rounded-full p-2"><img
+                                                        style="filter: invert(0.5);" width="18"
+                                                        src="./images/svgs/comment.svg" alt="" srcset="">17k</span>
+                                        <span
+                                                class="flex text-gray-500 text-xs items-end gap-1 hover:bg-[#00ba7c33] rounded-full p-2"><img
+                                                        style="filter: invert(0.5);" width="18"
+                                                        src="./images/svgs/retweet.svg" alt="" srcset="">25k</span>
+                                        <span
+                                                class="flex text-gray-500 text-xs items-end gap-1 hover:bg-[#f9188033] rounded-full p-2"><img
+                                                        style="filter: invert(0.5);" width="18"
+                                                        src="./images/svgs/like.svg" alt="" srcset="">293k</span>
+                                        <span
+                                                class="flex text-gray-500 text-xs items-end gap-1 hover:bg-[#1d9bf033] rounded-full p-2"><img
+                                                        style="filter: invert(0.5);" width="18"
+                                                        src="./images/svgs/views.svg" alt="" srcset="">33M</span>
+                                        <div class="flex gap-2">
+                                                <span class="flex hover:bg-[#0a171f] rounded-full p-2"><img
+                                                                style="filter: invert(0.5);" width="18"
+                                                                src="./images/svgs/bookmarks.svg" alt=""
+                                                                srcset=""></span>
+                                                <span class="flex hover:bg-[#0a171f] rounded-full p-2"><img
+                                                                style="filter: invert(0.5);" width="18"
+                                                                src="./images/svgs/share.svg" alt="" srcset=""></span>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div class="right lg:block lg:w-[60%] hidden px-5 py-1">
+                        <div class="searchbar bg-[#202327] flex p-4 border-transparent rounded-full items-center">
+                                <div class="search px-1">
+                                        <img style="filter: invert(0.5);" width="20" src="./images/svgs/search.svg"
+                                                alt="" srcset="">
+                                </div>
+                                <span class="text text-gray-500 px-4">
+                                        Search
+                                </span>
+                        </div>
+                        <div class="bhikh p-3 border-[#2f3336] border rounded-2xl space-y-3 mt-5">
+                                <h1>Subscribe to Premium</h1>
+                                <p class="">Subscribe to unlock new features and if eligible, receive a share of ads
+                                        revenue.</p>
+                                <button
+                                        class="text-white bg-blue-500 px-5 py-2 border border-transparent rounded-full hover:bg-blue-600 cursor-pointer">Subscribe</button>
+                        </div>
+                        <div class="trend border-[#2f3336] border rounded-2xl space-y-4 mt-5 p-3 ">
+                                <h1 class="font-bold text-xl">What's happening</h1>
+                                <div class="card p-2 flex flex-col justify-center cursor-pointer hover:bg-gray-950">
+                                        <div class="topic flex justify-between text-gray-500 text-xs items-center">
+                                                <span>Trending in
+                                                        India</span><img width="18" style="filter: invert(0.5);"
+                                                        src="./images/svgs/dots.svg" alt="" srcset="">
+                                        </div>
+                                        <h1 class="hashtag text-sm font-bold">#AttackOnTitan</h1>
+                                        <div class="posts text-gray-500 text-xs">26.8k posts</div>
+                                </div>
+                                <div class="card p-2 flex flex-col justify-center cursor-pointer hover:bg-gray-950">
+                                        <div class="topic flex justify-between text-gray-500 text-xs items-center">
+                                                <span>Trending in
+                                                        India</span><img width="18" style="filter: invert(0.5);"
+                                                        src="./images/svgs/dots.svg" alt="" srcset="">
+                                        </div>
+                                        <h1 class="hashtag text-sm font-bold">#AttackOnTitan</h1>
+                                        <div class="posts text-gray-500 text-xs">26.8k posts</div>
+                                </div>
+                                <div class="card p-2 flex flex-col justify-center cursor-pointer hover:bg-gray-950">
+                                        <div class="topic flex justify-between text-gray-500 text-xs items-center">
+                                                <span>Trending in
+                                                        India</span><img width="18" style="filter: invert(0.5);"
+                                                        src="./images/svgs/dots.svg" alt="" srcset="">
+                                        </div>
+                                        <h1 class="hashtag text-sm font-bold">#AttackOnTitan</h1>
+                                        <div class="posts text-gray-500 text-xs">26.8k posts</div>
+                                </div>
+                                <div class="card p-2 flex flex-col justify-center cursor-pointer hover:bg-gray-950">
+                                        <div class="topic flex justify-between text-gray-500 text-xs items-center">
+                                                <span>Trending in
+                                                        India</span><img width="18" style="filter: invert(0.5);"
+                                                        src="./images/svgs/dots.svg" alt="" srcset="">
+                                        </div>
+                                        <h1 class="hashtag text-sm font-bold">#AttackOnTitan</h1>
+                                        <div class="posts text-gray-500 text-xs">26.8k posts</div>
+                                </div>
+                                <div class="card p-2 flex flex-col justify-center cursor-pointer hover:bg-gray-950">
+                                        <div class="topic flex justify-between text-gray-500 text-xs items-center">
+                                                <span>Trending in
+                                                        India</span><img width="18" style="filter: invert(0.5);"
+                                                        src="./images/svgs/dots.svg" alt="" srcset="">
+                                        </div>
+                                        <h1 class="hashtag text-sm font-bold">#AttackOnTitan</h1>
+                                        <div class="posts text-gray-500 text-xs">26.8k posts</div>
+                                </div>
+
+                        </div>
+                        <div class="suggest border-[#2f3336] border rounded-2xl space-y-6 mt-5 p-3">
+                                <h1 class="font-bold text-xl">Who to follow</h1>
+                                <div class="username flex items-center hover:bg-gray-900 p-3 gap-x-2 cursor-pointer">
+                                        <div class="pp">
+                                                <img class="border-transparent rounded-full" width="45"
+                                                        src="./images/imgs/pp1.jpg" alt="" srcset="">
+                                        </div>
+                                        <div class="tag flex flex-col w-10/12">
+                                                <span class="name text-sm font-bold hover:underline">The Yard</span>
+                                                <span class="at text-gray-500 text-sm">@TheYard</span>
+                                        </div>
+                                        <button
+                                                class="follow bg-white text-black font-bold text-sm px-4 py-1.5 border-transparent rounded-full hover:bg-gray-200">Follow</button>
+                                </div>
+                                <div class="username flex items-center hover:bg-gray-900 p-3 gap-x-2 cursor-pointer">
+                                        <div class="pp">
+                                                <img class="border-transparent rounded-full" width="45"
+                                                        src="./images/imgs/pp1.jpg" alt="" srcset="">
+                                        </div>
+                                        <div class="tag flex flex-col w-10/12">
+                                                <span class="name text-sm font-bold hover:underline">The Yard</span>
+                                                <span class="at text-gray-500 text-sm">@TheYard</span>
+                                        </div>
+                                        <button
+                                                class="follow bg-white text-black font-bold text-sm px-4 py-1.5 border-transparent rounded-full hover:bg-gray-200">Follow</button>
+                                </div>
+                                <div class="username flex items-center hover:bg-gray-900 p-3 gap-x-2 cursor-pointer">
+                                        <div class="pp">
+                                                <img class="border-transparent rounded-full" width="45"
+                                                        src="./images/imgs/pp1.jpg" alt="" srcset="">
+                                        </div>
+                                        <div class="tag flex flex-col w-10/12">
+                                                <span class="name text-sm font-bold hover:underline">The Yard</span>
+                                                <span class="at text-gray-500 text-sm">@TheYard</span>
+                                        </div>
+                                        <button
+                                                class="follow bg-white text-black font-bold text-sm px-4 py-1.5 border-transparent rounded-full hover:bg-gray-200">Follow</button>
+                                </div>
+                                <div class="username flex items-center hover:bg-gray-900 p-2 cursor-pointer">
+                                        <span class="text-blue-400">Show more</span>
+                                </div>
+                        </div>
+                        <div class="footer px-5 py-3 mb-20">
+                                <ul class="grid grid-cols-3">
+                                        <li class="text-gray-400 text-xs hover:underline cursor-pointer">Terms Of
+                                                Service</li>
+                                        <li class="text-gray-400 text-xs hover:underline cursor-pointer">Privacy Policy
+                                        </li>
+                                        <li class="text-gray-400 text-xs hover:underline cursor-pointer">Cookie Policy
+                                        </li>
+                                        <li class="text-gray-400 text-xs hover:underline cursor-pointer">Accessibility
+                                        </li>
+                                        <li class="text-gray-400 text-xs hover:underline cursor-pointer">Ads info</li>
+                                        <li
+                                                class="text-gray-400 text-xs hover:underline cursor-pointer flex items-center">
+                                                More <img style="filter: invert(0.5);" width="14"
+                                                        src="./images/svgs/dots.svg" alt="" srcset=""></li>
+                                </ul>
+                        </div>
+                        <div
+                                class="messages flex justify-between border-gray-700 shadow-gray-600 shadow-2xl border-x border-t rounded-t-xl fixed bottom-0 bg-black w-[411px] right-5 px-6 py-3">
+                                <h1 class="font-bold text-xl">Messages</h1>
+                                <div class="svgs flex gap-4">
+                                        <img width="20" style="filter: invert(1);" src="./images/svgs/addmsg.svg" alt=""
+                                                srcset="">
+                                        <img width="20" style="filter: invert(1);" src="./images/svgs/upup.svg" alt=""
+                                                srcset="">
+                                </div>
+
+                        </div>
+                </div>
+        </div>
+</body>
+
+</html>
